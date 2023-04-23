@@ -5,7 +5,7 @@
 # 実行環境
 docker pull jupyter/datascience-notebook:python-3.9.7
 git clone git@github.com:NaotoKubota/book-python-stats-2nd.git
-cd book-python-stats-2nd.git
+cd book-python-stats-2nd
 docker run --rm -it -v `pwd`:/home/jovyan/work -p 10000:8888 jupyter/datascience-notebook:python-3.9.7 jupyter notebook
 ```
 
